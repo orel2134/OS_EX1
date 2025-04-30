@@ -1,0 +1,7 @@
+core*
+*.o
+*.so
+*.gcov
+*.gcda
+*.gcno
+ex1_inst
