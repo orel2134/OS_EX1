@@ -8,7 +8,7 @@
 void send_bit(pid_t pid, int bit) {
     int sig = (bit) ? SIGUSR1 : SIGUSR2;
     kill(pid, sig);
-    usleep(500); // זמן קצר לחכות כדי שהמקבל יספיק לקרוא
+    usleep(500); // A short wait for the reciver to have time to read
 }
 
 int main() {

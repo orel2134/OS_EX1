@@ -3,7 +3,7 @@
 #include <math.h>
 #include <complex.h>
 #include <string.h>
-// מחשב את הערך המוחלט של מספר מרוכב ידנית
+//Calculates the absolute value of a complex number manually
 double my_abs(double complex z) {
     return sqrt(creal(z) * creal(z) + cimag(z) * cimag(z));
 }
